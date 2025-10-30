@@ -1,12 +1,22 @@
+# Entornos virtuales
+venv/
+.env/
+
+# Archivos temporales y cachés
 __pycache__/
 *.pyc
 *.pyo
-*.egg-info/
-.env
-venv/
-dist/
+*.pyd
+
+# Carpetas de build y distribuciones
 build/
+dist/
+*.egg-info/
+
+# Configuraciones del sistema
 .DS_Store
-.idea/
-.vscode/
 *.log
+
+# Archivos exportados o privados
+licenses_db.json
+exports/
