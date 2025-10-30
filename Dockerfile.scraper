@@ -1,0 +1,26 @@
+FROM python:3.11-slim
+
+WORKDIR /app
+
+# Copy dependencies list and install
+COPY requirements.txt /app/requirements.txt
+RUN python -m pip install --upgrade pip && \
+    pip install --no-cache-dir -r /app/requirements.txt
+
+# Copy the entire project (needed for imports)
+COPY . /app/
+
+# Install the package in development mode
+RUN pip install -e .
+
+# Default env vars (can override with -e or docker-compose)
+ENV GUMROAD_PRODUCT_ID=TU_PRODUCT_ID_DE_GUMROAD
+ENV LICENSE_VALIDATION_URL=http://license_server:5000/verify
+ENV API_TIMEOUT=10
+
+# Set Python to unbuffered mode for logs
+ENV PYTHONUNBUFFERED=1
+
+# Run scraper by default - users can override with docker run arguments
+ENTRYPOINT ["inspector"]
+CMD ["--help"]

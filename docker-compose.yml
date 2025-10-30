@@ -1,0 +1,24 @@
+version: '3.8'
+services:
+  license_server:
+    build: .
+    container_name: dropshipping-license-server
+    ports:
+      - "5000:5000"
+    environment:
+      - LICENSE_USE_GUMROAD=false
+      - LICENSE_SERVER_API_KEY=test_local_key_please_change
+    volumes:
+      - ./inspector/licenses_db.json:/app/inspector/licenses_db.json:rw
+    restart: unless-stopped
+
+  scraper:
+    build:
+      context: .
+      dockerfile: Dockerfile.scraper
+    environment:
+      - LICENSE_VALIDATION_URL=http://license_server:5000/verify
+      - LICENSE_SERVER_API_KEY=test_local_key_please_change
+      - GUMROAD_PRODUCT_ID=TU_PRODUCT_ID_DE_GUMROAD
+    volumes:
+      - ./:/app/output

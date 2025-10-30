@@ -1,0 +1,11 @@
+{
+  "licenses": [
+    {
+      "license_key": "TEST-LOCAL-KEY",
+      "product_id": "TU_PRODUCT_ID_DE_GUMROAD",
+      "active": true,
+      "expires": null,
+      "notes": "Demo local license (never expires)"
+    }
+  ]
+}

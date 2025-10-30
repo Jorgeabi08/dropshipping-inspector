@@ -1,0 +1,20 @@
+[
+  {
+    "host": "192.0.2.1",
+    "port": 8080,
+    "username": null,
+    "password": null,
+    "protocol": "http",
+    "last_used": "2025-10-28T23:15:43.259563",
+    "fails": 0
+  },
+  {
+    "host": "198.51.100.2",
+    "port": 3128,
+    "username": null,
+    "password": null,
+    "protocol": "http",
+    "last_used": "2025-10-28T23:15:43.259563",
+    "fails": 0
+  }
+]

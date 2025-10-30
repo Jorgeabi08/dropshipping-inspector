@@ -1,0 +1,52 @@
+PROPRIETARY SOFTWARE LICENSE
+=================================
+
+Copyright (c) 2025 [Tu Nombre o Empresa]. All rights reserved.
+
+This software ("Dropshipping Inspector") is licensed, not sold. The license
+grants the purchaser a limited, non-transferable right to use the software in
+accordance with these terms.
+
+1) Permitted uses
+- The licensee may install and run the software for internal business use.
+- The licensee may receive updates and basic support as defined by the seller
+  at the time of purchase.
+
+2) Restrictions
+- Redistribution, sublicensing, resale, or any public distribution of the
+  software (source or binary) is prohibited unless expressly authorized in a
+  separate written agreement.
+- The licensee must not use the software to perform activities that violate
+  third-party Terms of Service (for example, abusive or illegal scraping of
+  platforms). Compliance with applicable laws and third-party terms is the
+  licensee's responsibility.
+
+3) Revocation and subscription model
+- For rental/subscription sales, the seller may revoke or suspend license keys
+  (e.g., upon non-payment or terms violation). Revocation is effective
+  immediately once applied to the seller's validation service.
+- The seller may implement an online validation service for license status and
+  expiry checking. The client software may be required to contact that service
+  for activation and periodic re-validation.
+
+4) Liability and warranty
+- The software is provided "as is" without warranty of any kind. To the extent
+  permitted by law, the seller disclaims all implied warranties including
+  merchantability and fitness for a particular purpose. The seller is not
+  liable for indirect, incidental, special, or consequential damages arising
+  from the use of the software.
+
+5) Support, updates and refunds
+- Support and update policies are defined by the seller on the product page.
+- Refunds, if any, are handled through the seller's Gumroad page and follow
+  Gumroad's refund policy unless otherwise specified.
+
+6) Activation & licensing
+- The product uses a license key mechanism to control access. Buyers must
+  provide a valid license key (issued via Gumroad or via the seller's system)
+  to activate the product. The seller may require online verification via a
+  validation service; offline activation options may be provided at seller's
+  discretion.
+
+7) Contact
+- For licensing issues and support contact: support@example.com

@@ -1,0 +1,6 @@
+include PROPRIETARY_LICENSE.txt
+include .env.template
+include README_LICENSE.md
+include requirements.txt
+recursive-include inspector *.py
+recursive-include inspector *.json
